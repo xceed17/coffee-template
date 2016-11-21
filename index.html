@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<title>EXCEED</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    <link href="css/lightbox.min.css" rel="stylesheet" >
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: 77% 100%;
+    background-image: url("xceed.png");
+    min-height: 75%;
+}
+.menu {
+    display: none;
+}
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0,0,0,1);
+    color: rgb(255,255,255);
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0;
+  }
+
+  .footer #trophyImage {
+    display: inline;
+    height: 40px;
+    width: auto;
+    vertical-align: middle;
+  }
+
+  .footer p {
+    display: inline;
+    vertical-align: middle;
+  }
+
+  .fixit{
+    position: fixed;
+  }
+
+</style>
+<body>
+
+<div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+        <img src="ceg.png" style="width:20%;height:auto" align="left"> 
+      
+        <img src="k.png" style="width:20%;height:auto;margin-left:20%;" align="center-block">
+      
+        
+        <img src="unesco.png" style="width:20%;height:auto" align="right">
+      </div>
+    </div>
+    <br>
+
+<!-- Links (sit on top) -->
+<!-- <div class="w3-top"> -->
+  <div class="w3-row w3-padding " >
+    <div class="w3-col s3 w3-border w3-border-white">
+      <a href="#" class="w3-btn-block w3-hover-white">HOME</a>
+    </div>
+    <div class="w3-col s3 w3-border w3-border-white">
+      <a href="#about" class="w3-btn-block w3-hover-white">EXCEED</a>
+    </div>
+    <div class="w3-col s3 w3-border w3-border-white">
+      <a href="#menu" class="w3-btn-block w3-hover-white">CONTACT US</a>
+    </div>
+    <div class="w3-col s3 w3-border w3-border-white">
+      <a href="#where" class="w3-btn-block w3-hover-white">SPONSORS</a>
+    </div>
+  </div>
+
+<!--</div> -->
+
+
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  
+  <!--
+  <div class="w3-display-bottomleft w3-center w3-padding-xlarge w3-hide-small">
+    <span class="w3-tag">Open from 6am to 5pm</span>
+  </div>
+  -->
+
+  <div class="w3-display-topleft ">
+    <span class="w3-text-white" style="font-size:90px">XCEED YOUR LIMIT</span>
+  </div>
+  
+
+<!--
+  <div class="w3-display-bottomright w3-center w3-padding-xlarge">
+    <span class="w3-text-white">15 Adr street, 5015</span>
+  
+  </div>
+-->
+
+</header>
+
+
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h2 class="w3-center w3-padding-48"><span class="w3-tag w3-wide w3-padding-left w3-padding-right">ABOUT</span></h2>
+    
+    <p> Distance must not be a barrier to spreading knowledge. Transcending geographical boundaries, Xceed serves as miniature version of Kurukshetra encompassing interesting events and workshops. Apart from bagging lots of prizes, the winners of Xceed get the enviable opportunity to be a part of the grand final stage at Kurukshetra. Quite simply, XCEED provides those beyond our state borders the chance to experience Kurukshetra first hand.</p>
+    <p>Since 2008, XCEED has visited some of the top institutions in our country. Listed below are some of them in the order of their ranking.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>
+        <ul>
+            <li>Indian Institute of Technology –Kanpur</li>
+            <li>Indian Institute of Management –Ahmedabad, Bangalore and Kozhikode</li>
+            <li>College of Engineering –Delhi, Hyderabad and Pune</li>
+            <li>National Institute of Technology –Calicut, Warangal and Trichy</li>
+        </ul>
+      </i></p>
+    </div>
+    <div class=row >
+     <center>
+     <!--image
+       <img class="example-image" width="300px" src="xceed1.jpg" alt="" />
+       -->
+     </center>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!-- Contact/Area Container -->
+<div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide w3-padding-left w3-padding-right">WHERE TO FIND US</span></h5>
+    <p>Find us at some address at some place.</p>
+    <div id="googleMap" class="w3-sepia" style="width:100%;height:400px;"></div>
+    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
+    <form action="form.asp" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-btn w3-padding" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+</div>
+
+
+<!-- End page content -->
+</div>
+
+
+<!-- instead of menu contact us i had included-->
+<div class=" col-sm-offset-4 col-sm-6" id="menu">
+  <div class="contact-text">
+  <center>
+  <h2>Contact Us </h2>
+  <p>
+      <img src ="XCEED_Jaffar.jpg" height = 190 width = 180>
+       <h3>
+       <address><i>
+       Jaffar Sherif: +91 9944279229<br></br></i></address>
+    
+
+       <img src ="XCEED_Rajasree.jpg" height = 190 width = 280>
+        <address><i>   
+       Rajasree     : +91 9500106778<br></br></i>
+       </address>
+       <p>Mail us to: <i>xceed@kurukshetra.org.in</i></p>
+       
+       </h3>
+      </p>
+    </div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+
+<script>
+// Google Map Location
+var myCenter = new google.maps.LatLng(41.878114, -87.629798);
+
+function initialize() {
+var mapProp = {
+  center: myCenter,
+  zoom: 12,
+  scrollwheel: false,
+  draggable: false,
+  mapTypeId: google.maps.MapTypeId.ROADMAP
+  };
+
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+
+var marker = new google.maps.Marker({
+  position: myCenter,
+});
+
+marker.setMap(map);
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<div class="footer">
+  <img src="trophy.png" id="trophyImage" height= 60 />
+  <p>Prizes worth INR 1,00,000</p>
+</div>
+</body>
+</html>
+
